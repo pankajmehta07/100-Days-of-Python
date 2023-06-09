@@ -197,7 +197,7 @@ if bet.lower() !="quit" or bet.lower()!="q":
             if inp.lower()=="s" or inp.lower()=="stand":
                 play = False
             if inp.lower()=="d" or inp.lower()=="double" or inp.lower()=="double down":
-                more = input(f"How much do you want to increase your bet? (1-{5000-bet}:\t")
+                more = input(f"How much do you want to increase your bet? (1-{5000-bet}):\t")
                 bet += int(more)
                 
                 playerCards.append(getCards(card_list))
